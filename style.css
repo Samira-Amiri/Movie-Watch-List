@@ -1,0 +1,159 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    max-width: 800px;
+    background-color: #353434;
+}
+
+header {
+    background-image: url('back.png');
+    background-size: 100%;
+    background-position: center;
+    margin-top: 0;
+}
+
+h1 {
+    color: #f4f4f4;
+    padding: 3em;
+    font-size: 2em;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#input-field,
+#search-button{
+    border-radius: 5px;
+    border: none;
+    margin: 0;
+    font-family: inherit;
+    color: #f4f4f4;
+}
+
+#input-field {
+    width: 70%;
+    height: 3em;
+    padding: 0.5em;
+    font-size: 1em;
+    background-color: #2E2E2F;
+}
+
+#search-button {
+    width: 20%;
+    height: 3em;
+    background-color: #f4f4f4;
+    font-size: 1em;
+    background-color: #4B4B4B;   
+}
+
+#search-button:hover {
+    background-color: #f9f9f9;
+    color: #4B4B4B;
+}
+
+.search-results{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5em;
+    color: #f4f4f4;
+}
+
+.film-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    border-bottom: 1px solid #2C2C2C;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#film-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em; 
+    margin: 0 0 0 1em;
+    justify-content: start;
+    align-items: start;
+    
+    min-width:80%;
+}
+
+#intro-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+
+}
+
+#classification-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-top: 0.375em;
+}
+
+.poster img{
+    width: 7em;
+}
+
+#overview-container{
+    color:#f4f4f4;
+}
+#film-shap{
+
+}
+
+.title {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.other-page{
+    text-decoration: none;
+    color:  #f4f4f4;
+    margin-right: 3em;
+}
+.film{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10%;
+    
+}
+
+p{
+    margin: 0px;
+}
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+}
+.para1{
+    color: gray;
+}
+.para2{
+    
+    
+    color: black;
+}
+.btn-para2{
+    border-radius: 50%;
+    margin: 10px;
+}
